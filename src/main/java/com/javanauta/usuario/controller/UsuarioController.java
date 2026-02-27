@@ -1,5 +1,6 @@
 package com.javanauta.usuario.controller;
 
+
 import com.javanauta.usuario.business.UsuarioService;
 import com.javanauta.usuario.business.dto.UsuarioDTO;
 import lombok.RequiredArgsConstructor;
@@ -10,15 +11,17 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping
+@RequestMapping("/usuario")
 @RequiredArgsConstructor
 public class UsuarioController {
 
     private final UsuarioService usuarioService;
 
     @PostMapping
-    public ResponseEntity<UsuarioDTO> salvaUsuario(@RequestBody UsuarioDTO usuarioDTO){
-    return  ResponseEntity.ok(usuarioService.salvaUsuario(usuarioDTO));
+    public ResponseEntity<UsuarioDTO> salvaUsuario(@RequestBody UsuarioDTO usuarioDTO) {
+        return ResponseEntity.ok(usuarioService.salvaUsuario(usuarioDTO));
 
     }
+
+
 }
