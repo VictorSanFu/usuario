@@ -1,0 +1,23 @@
+[33mcommit a5703d8ca04d6bc827b1be5c40694ff123cd210a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeature/spring_security[m[33m, [m[1;31morigin/feature/spring_security[m[33m)[m
+Author: Victor <vsantiagofu@gmail.com>
+Date:   Wed Feb 11 09:37:58 2026 -0300
+
+    adicionado classe security
+
+[33mcommit 0a9b50acdde444d20963706008fe5de266cfce0b[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Victor <vsantiagofu@gmail.com>
+Date:   Wed Feb 11 09:21:02 2026 -0300
+
+    adicionado classes security
+
+[33mcommit d235dfa651dc40e0f5f9e97d4e996174bd8ed83f[m
+Author: VictorSanFu <103194306+VictorSanFu@users.noreply.github.com>
+Date:   Tue Feb 10 15:12:54 2026 -0300
+
+    Create gradle.yml
+
+[33mcommit 635b6454eba1fc8abdda25ddfba62194d9af296a[m
+Author: Victor <vsantiagofu@gmail.com>
+Date:   Tue Feb 10 15:07:21 2026 -0300
+
+    commit inicial
