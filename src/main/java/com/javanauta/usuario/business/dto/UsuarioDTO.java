@@ -1,7 +1,5 @@
 package com.javanauta.usuario.business.dto;
 
-import com.javanauta.usuario.infrastructure.entity.Endereco;
-import com.javanauta.usuario.infrastructure.entity.Telefone;
 import lombok.*;
 
 import java.util.List;
