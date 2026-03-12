@@ -130,6 +130,7 @@ public class UsuarioService {
         Endereco enderecoEntity = enderecoRepository.save(endereco);
         return usuarioConverter.paraEnderecoDTO(enderecoEntity);
 
+
     }
 
     public TelefoneDTO cadastraTelefone(String token, TelefoneDTO dto){
