@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Component
-public class UsuarioConverter {
+public class UsuarioConverterteste {
 
     public Usuario paraUsuario(UsuarioDTO usuarioDTO){
         return Usuario.builder()
@@ -132,7 +132,6 @@ public class UsuarioConverter {
                 .estado(dto.getEstado() != null ? dto.getEstado() : entity.getEstado() )
                 .cep(dto.getCep()!= null ? dto.getCep() : entity.getCep())
                 .build();
-
     }
     public Telefone updateTelefone(TelefoneDTO dto, Telefone entity){
         return Telefone.builder()
@@ -162,5 +161,5 @@ public class UsuarioConverter {
                 .build();
     }
 
-//testeando comentarios
+
 }
