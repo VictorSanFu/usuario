@@ -132,6 +132,7 @@ public class UsuarioConverter {
                 .estado(dto.getEstado() != null ? dto.getEstado() : entity.getEstado() )
                 .cep(dto.getCep()!= null ? dto.getCep() : entity.getCep())
                 .build();
+
     }
     public Telefone updateTelefone(TelefoneDTO dto, Telefone entity){
         return Telefone.builder()
@@ -161,5 +162,5 @@ public class UsuarioConverter {
                 .build();
     }
 
-
+//testeando comentarios
 }
